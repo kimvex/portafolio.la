@@ -3,98 +3,99 @@
 <head>
 	<meta charset="utf-8">
 	<title>Portafolio.la</title>
+	<link rel="stylesheet" href="../static/css/normalize.css">
 	<link rel="stylesheet" href="../static/css/estilos.css">
 </head>
 <body>
 	<header id="yo" class="header">
-		<nav>
-			<ul>
-				<li>
-					<a href="#yo">Yo</a>
+		<nav class="MainMenu">
+			<ul class="MainMenu-list">
+				<li class="MainMenu-item">
+					<a href="#yo" class="MainMenu-link">Yo</a>
 				</li>
-				<li>
-					<a href="#perfil">Perfil</a>					
+				<li class="MainMenu-item">
+					<a href="#perfil" class="MainMenu-link">Perfil</a>					
 				</li>
-				<li>
-					<a href="#trabajo">Trabajo</a>					
+				<li class="MainMenu-item">
+					<a href="#trabajo" class="MainMenu-link">Trabajo</a>					
 				</li>
-				<li>
-					<a href="#contacto">Contacto</a>
+				<li class="MainMenu-item">
+					<a href="#contacto" class="MainMenu-link">Contacto</a>
 				</li>
 			</ul>
 		</nav>
-		<figure>
-			<img src="avatar.jpg" alt="Avatar">
-			<figcaption>
-				<a href="http://twitter.com/benjachomin" target="_blank">				
+		<figure class="Header-imageContainer">
+			<img src="avatar.jpg" alt="Avatar" class="Header-image">
+			<figcaption class="Header-imageDescription">
+				<a class="Header-link" href="http://twitter.com/benjachomin" target="_blank">				
 					@benjachomin
 				</a>
 			</figcaption>
-			<p>
+			<p class="Header-name">
 				Benjamín De la cruz Matínez.
 			</p>
 		</figure>
 	</header>
-	<section id="perfil">
-		<h2>Mi perfil</h2>
-		<p>
+	<section id="perfil" class="Profile">
+		<h2 class="Profile-title">Mi perfil</h2>
+		<p class="Profile-description">
 			Hola! si llegaste hasta aquí puedes ver mi portafolio y contactame.
 		</p>
-		<a href="http://twitter.com/benjachomin" target="_blank">				@benjachomin
+		<a href="http://twitter.com/benjachomin" target="_blank" class="Profile-link">				@benjachomin
 		</a>
-		<a href="https://www.facebook.com/benjamin.delacruz.14">		Benjamín De la cruz Martínez.
+		<a href="https://www.facebook.com/benjamin.delacruz.14" class="Profile-link">		Benjamín De la cruz Martínez.
 		</a>
-		<a href="https://github.com/kimvex">
+		<a href="https://github.com/kimvex" class="Profile-link">
 			Kimvex
 		</a>
 	</section>
-	<section id="trabajo">
-		<h2>Mi trabajo</h2>
-		<article>
-			<figure>
-				<img src="mejorandola.jpg" alt="Esto es la descripción de mi imagen">
-				<figcaption>Website de mejorando.la</figcaption>
+	<section id="trabajo" class="Work">
+		<h2 class="Work-title">Mi trabajo</h2>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="mejorandola.jpg" alt="Esto es la descripción de mi imagen">
+				<figcaption class="Work-description">Website de mejorando.la</figcaption>
 			</figure>
 		</article>
-		<article>
+		<article class="Work-item">
 			<figure>
-				<img src="mejorandola.jpg" alt="Esto es la descripción de mi imagen">
-				<figcaption>Website de mejorando.la</figcaption>
+				<img class="Work-image" src="mejorandola.jpg" alt="Esto es la descripción de mi imagen">
+				<figcaption class="Work-description">Website de mejorando.la</figcaption>
 			</figure>
 		</article>
-		<article>
+		<article class="Work-item">
 			<figure>
-				<img src="mejorandola.jpg" alt="Esto es la descripción de mi imagen">
-				<figcaption>Website de mejorando.la</figcaption>
+				<img class="Work-image" src="mejorandola.jpg" alt="Esto es la descripción de mi imagen">
+				<figcaption class="Work-description">Website de mejorando.la</figcaption>
 			</figure>
 		</article>
-		<article>
+		<article class="Work-item">
 			<figure>
-				<img src="mejorandola.jpg" alt="Esto es la descripción de mi imagen">
-				<figcaption>Website de mejorando.la</figcaption>
+				<img class="Work-image" src="mejorandola.jpg" alt="Esto es la descripción de mi imagen">
+				<figcaption class="Work-description">Website de mejorando.la</figcaption>
 			</figure>
 		</article>
-		<article>
+		<article class="Work-item">
 			<figure>
-				<img src="mejorandola.jpg" alt="Esto es la descripción de mi imagen">
-				<figcaption>Website de mejorando.la</figcaption>
+				<img class="Work-image" src="mejorandola.jpg" alt="Esto es la descripción de mi imagen">
+				<figcaption class="Work-description">Website de mejorando.la</figcaption>
 			</figure>
 		</article>
-		<article>
+		<article class="Work-item">
 			<figure>
-				<img src="mejorandola.jpg" alt="Esto es la descripción de mi imagen">
-				<figcaption>Website de mejorando.la</figcaption>
+				<img class="Work-image" src="mejorandola.jpg" alt="Esto es la descripción de mi imagen">
+				<figcaption class="Work-description">Website de mejorando.la</figcaption>
 			</figure>
 		</article>
 	</section>
-	<footer id="contacto">
-		<h3>Contacto</h3>
-		<p>Si tienes una sugerencia o quieres trabajar conmigo ponet en contacto.</p>
-		<form>
-			<input type="text" placeholder="Nombre">
-			<input type="email" placeholder="Email">
-			<textarea placeholder="Motivo"></textarea>
-			<input type="submit">
+	<footer id="contacto" class="Footer">
+		<h3 class="Footer-title">Contacto</h3>
+		<p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponet en contacto.</p>
+		<form class="Footer-form">
+			<input class="Footer-formInput" type="text" placeholder="Nombre">
+			<input class="Footer-formInput" type="email" placeholder="Email">
+			<textarea class="Footer-textarea" placeholder="Motivo"></textarea>
+			<button class="Footer-botton" type="submit"> Contactame</button>
 		</form>
 	</footer>
 </body>
