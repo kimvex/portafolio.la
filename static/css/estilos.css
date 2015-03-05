@@ -36,7 +36,9 @@
 	line-height: 3.75em;/*Sirve para alinear verticalmente, y cuando se alinea verticalmente el tamaño es igual al del elemento padre*/
 	margin-right: 1.5em;
 }
-
+.MainMenu-link:hover{
+	color: #FFFFFF;
+}
 /*Header*/
 
 .Header{
@@ -157,4 +159,11 @@ vertical-align: top;*/
 	border:none;
 	border-radius: 1em;
 	padding: .5em 1em;
+}
+/*:first-line sirve para darle estilo a la primer linea de un texto.
+
+:first-letter sirve para darle estilo a la primer letra del texto*/
+/*Para poder cambiar el color de una seleccion seria con ::selection;*/
+::selection{
+	background: yellow;
 }
